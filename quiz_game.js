@@ -18,7 +18,8 @@ function enter(){
     answer_button = "<button class='btn btn-info' onclick='check()'>Check</button>";
     col = question_word + answer + answer_button;
     document.getElementById("output").innerHTML = col;
-    document.getElementById("word").value = "";
+    document.getElementById("num1").value = "";
+    document.getElementById("num2").value = "";
 }
 question_turn = "player1";
 answer_turn = "player2";
