@@ -13,13 +13,20 @@
     </head>
     <body>
         <center>
-            <h1>Math Quiz game</h1>
+            <h1>Game page</h1>
             <h3 id="player1"></h3><span id="player1_score"></span><br>
             <h3 id="player2"></h3><span id="player2_score"></span><br><br><br>
-            <div style="width: 60%;" id="output"></div><br><br>
-            <input id="word" class="form-control" type="text" placeholder="Number 1"><br>
-            <input id="word" class="form-control" type="text" placeholder="Number 2"><br><br>
-            <button style="width: 30%;" onclick="enter()" class="btn btn-success">Enter</button>
+            <div class="container">
+                <center>
+                    <h2 style="color: rgb(205, 255, 205);">Math Quiz</h2>
+                    <h3 id="player_q"></h3><h3 id="player_a"></h3>
+                    <div style="width: 60%;" id="output"></div>
+                    <input id="num1" class="form-control" type="text" placeholder="Number1"><br>
+                    <input id="num2" class="form-control" type="text" placeholder="Number2"><br><br>
+                    <button style="width: 30%;" onclick="enter()" class="btn btn-success">Enter</button>
+                </center>
+            </div>
         </center>
+        <script src="quiz_game.js"></script>
     </body>
 </html>
